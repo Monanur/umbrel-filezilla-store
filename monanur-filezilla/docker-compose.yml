@@ -2,7 +2,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: monanur-filezilla_app_1
-      APP_PORT: 3001
+      APP_PORT: 3000
       PROXY_AUTH_ADD: "false"
 
   app:
