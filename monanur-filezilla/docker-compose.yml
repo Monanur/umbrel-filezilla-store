@@ -1,0 +1,18 @@
+services:
+  app_proxy:
+    environment:
+      APP_HOST: monanur-filezilla_app_1
+      APP_PORT: 3001
+      PROXY_AUTH_ADD: "false"
+
+  app:
+    image: lscr.io/linuxserver/filezilla:latest
+    restart: on-failure
+    environment:
+      PUID: "1000"
+      PGID: "1000"
+      TZ: "Europe/Berlin"
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config
+      - /home/umbrel/umbrel/home:/nas
+    shm_size: "1gb"
