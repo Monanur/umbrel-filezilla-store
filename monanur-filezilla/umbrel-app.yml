@@ -1,7 +1,7 @@
 manifestVersion: 1.2
 id: monanur-filezilla
 name: FileZilla
-version: "latest"
+version: "1.0.1"
 tagline: FTP, FTPS and SFTP client
 category: files
 description: >-
