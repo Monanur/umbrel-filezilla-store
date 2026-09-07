@@ -1,0 +1,17 @@
+manifestVersion: 1.2
+id: monanur-filezilla
+name: FileZilla
+version: "latest"
+tagline: FTP, FTPS and SFTP client
+category: files
+description: >-
+  FileZilla Client running on Umbrel using the LinuxServer.io container.
+developer: FileZilla Project
+website: https://filezilla-project.org/
+repo: https://github.com/linuxserver/docker-filezilla
+support: https://github.com/linuxserver/docker-filezilla/issues
+port: 3001
+path: "/"
+dependencies: []
+defaultUsername: ""
+defaultPassword: ""
